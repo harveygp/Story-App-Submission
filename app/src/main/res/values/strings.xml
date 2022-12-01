@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">submission_1_intermediet</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="logo">logo</string>
+    <string name="login">Login</string>
+    <string name="edtNama">Masukan Nama Anda</string>
+    <string name="edtPassword">Masukan Password Anda</string>
+    <string name="tvSignUp">Sign Up Here</string>
+    <string name="edtEmailError">please fill your correct email here</string>
+    <string name="edtPasswordError">please fill more than 5 length</string>
+    <string name="tvUserNotFound">Account Not Found</string>
+    <string name="register">Register</string>
+    <string name="edtEmail">Masukan Email Anda</string>
+    <string name="tvEmailTaken">Email already taken</string>
+    <string name="edtNameError">Insert your name</string>
+    <string name="tvEmailCreated">User Created Successfully</string>
+    <string name="tvLoremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="tvDetail">Detail Story</string>
+    <string name="tvDashboard">Dashboard</string>
+    <string name="logout">logout</string>
+    <string name="add">add</string>
+    <string name="tvAdd">Add Story</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="previewimage">previewImage</string>
+    <string name="tvDescription">description</string>
+    <string name="upload">Upload</string>
+    <string name="tvUploadError">Problem Occurred</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="map">map</string>
+</resources>

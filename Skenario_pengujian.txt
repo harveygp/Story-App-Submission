@@ -1,0 +1,51 @@
+1. MainViewModelTest
+
+	- fun`testing setDeleteSesiandToken delete token and sesi`()
+		mengecek repository terpanggil atau tidaknya untuk menghapus token dan sesi
+	
+	- `testing loading value are changes after using function`()
+		pada loading tidak ada repository yang terpanggil, karna hanya mengubah value loading state, maka
+		dilakukan assert percobaan untuk apakah data sudah berubah atau tidak
+
+	- `when getStories paging data viewmodel not Null and has value`()
+		dilakukan pengecheckan apakah repository terpanggil dan isinya sudah benar dan tidak null
+
+2. AddViewModelTest
+
+	- `testing viewModel Add has value and Not Null and return success`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Success
+		hasil response false ( tidak ada masalah ) , dan tidak null ( data berisi message + false boolean )
+
+	- `testing viewModel Add called repo return Error`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Error
+		hasil response true ( memiliki masalah ) , dan tidak null ( data berisi message + true boolean )
+
+3. LoginViewModelTest
+	
+	- `testing viewModel login has value and not null and return success`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Success
+		hasil response false ( tidak ada masalah ) , dan tidak null ( data berisi message + false boolean + loginResult)		
+	
+	- testing viewModel Login called repo return Error`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Error
+		hasil response true ( memiliki masalah ) , dan tidak null ( data berisi message + false boolean + loginResult null)
+
+4. RegisterViewModelTest	
+	
+	- testing viewModel Register has value and not null and return success`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Success
+		hasil response false ( tidak ada masalah ) , dan tidak null ( data berisi message + false boolean )
+
+	- `testing viewModel Register called repo return error`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Error
+		hasil response true ( memiliki masalah ) , dan tidak null ( data berisi message + true boolean )
+
+5. MapsViewModelTest
+
+	- `testing viewModel getStoriesLocation has value and not Null and return success`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Success
+		hasil response false ( tidak ada masalah ) , dan tidak null ( data berisi message + false boolean + isi list stories)
+
+	- `testing viewModel getStoriesLocation called repo and return error`()
+		mengecek apakah repository sudah terpanggil dan memiliki value yang menerima Condition.Error
+		hasil response true ( memiliki masalah ) , dan tidak null ( data berisi message + true boolean + list kosong)		

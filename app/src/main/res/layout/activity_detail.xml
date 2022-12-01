@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".ui.detail.DetailActivity">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/TextTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_toEndOf="@id/imgPhoto"
+        android:maxLines="1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/imgPhoto"
+        app:layout_constraintStart_toStartOf="@+id/imgPhoto"
+        app:layout_constraintTop_toBottomOf="@+id/imgPhoto"
+        tools:text="username" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        style="@style/TextContent"
+        android:layout_width="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        tools:text="@string/tvLoremIpsum" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
